@@ -7,7 +7,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/dev',
       name: 'Developer Documentation',
       component: DevDoc
     }
