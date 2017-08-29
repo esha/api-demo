@@ -29,7 +29,7 @@ export default {
           'typescript': 'https://www.typescriptlang.org/',
           'vue-router': 'http://router.vuejs.org/',
           'vue-loader': 'https://vue-loader.vuejs.org/en/',
-          'vue-ts-loader': 'https://github.com/HerringtonDarkholme/vue-ts-loader',
+          'ts-loader': 'https://github.com/TypeStrong/ts-loader',
           'vue-cli webpack template': 'http://vuejs-templates.github.io/webpack/'
         },
         'Tutorials': {

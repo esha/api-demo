@@ -7,7 +7,6 @@ var loaders = utils.cssLoaders({
     : config.dev.cssSourceMap,
   extract: isProduction
 });
-loaders.ts = 'vue-ts-loader';
 
 module.exports = {
   loaders: loaders,
