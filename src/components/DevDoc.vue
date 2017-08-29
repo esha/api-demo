@@ -5,7 +5,7 @@
       <h2>{{ title }}</h2>
       <ul>
         <li v-for="(url, name) in list" :key="name">
-          <a :href="url">{{ name }} - {{ url }}</a>
+          <a :href="url">{{ name }}</a> - {{ url }}
         </li>
       </ul>
     </section>
@@ -33,6 +33,7 @@ export default {
           'vue-cli webpack template': 'http://vuejs-templates.github.io/webpack/'
         },
         'Tutorials': {
+          'Vue-cli webpack + TypeScript': 'https://alexjoverm.github.io/2017/06/28/Integrate-TypeScript-in-your-Vue-project/',
           'Vue 2 + TypeScript 2 Guide': 'https://herringtondarkholme.github.io/2016/10/03/vue2-ts2/'
         },
         'Support': {
@@ -41,6 +42,9 @@ export default {
         },
         'Major Dependencies Under Consideration': {
           'vuex': 'http://vuex.vuejs.org/',
+          'vue-class-component': 'https://github.com/vuejs/vue-class-component'
+        },
+        'Resource Lists': {
           'awesome-vue': 'https://github.com/vuejs/awesome-vue'
         }
       }
