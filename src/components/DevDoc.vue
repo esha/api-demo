@@ -9,6 +9,7 @@
         </li>
       </ul>
     </section>
+    <img src="../assets/logo.png">
   </div>
 </template>
 
