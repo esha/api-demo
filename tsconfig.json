@@ -3,17 +3,20 @@
         "target": "es5",
         "lib": [
             "dom",
+            "es2015",
             "es2015"
         ],
         "types": [
             "node"
         ],
-        "module": "commonjs",
+        "module": "es2015",
         "moduleResolution": "node",
         "isolatedModules": false,
         "experimentalDecorators": true,
-        "noImplicitThis": true,
-        "strictNullChecks": true,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
         "removeComments": true,
         "suppressImplicitAnyIndexErrors": true
     },
