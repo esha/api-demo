@@ -26,7 +26,7 @@ module.exports = {
     chunkFilename: 'js/[id].[chunkhash].js'
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.ts', '.js', '.vue', '.json'],
     modules: [
       resolve('src'),
       resolve('node_modules')
@@ -43,6 +43,14 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           formatter: require('eslint-friendly-formatter')
+        }
+      },
+      {
+        test: /\.ts$/,
+        loader: 'ts-loader',
+        exclude: /node_modules|vue\src/,
+        options: {
+          appendTsSuffixTo: [/\.vue$/]
         }
       },
       {
