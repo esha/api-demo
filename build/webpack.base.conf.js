@@ -17,7 +17,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    app: './src/main.ts'
+    app: './src/main.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
@@ -26,7 +26,7 @@ module.exports = {
     chunkFilename: 'js/[id].[chunkhash].js'
   },
   resolve: {
-    extensions: ['.ts', '.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json'],
     modules: [
       resolve('src'),
       resolve('node_modules')
@@ -46,19 +46,16 @@ module.exports = {
         }
       },
       {
-        test: /\.ts$/,
-        exclude: /node_modules|vue\/src/,
-        loader: 'ts-loader',
-        options: {
-          appendTsSuffixTo: [/\.vue$/]
-        }
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: projectRoot,
+        exclude: /node_modules/
       },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
           postcss: cssUtils.postcss,
-          esModule: true,
           loaders: merge({js: 'babel-loader'}, cssUtils.styleLoaders({
             sourceMap: useCssSourceMap,
             extract: env.prod

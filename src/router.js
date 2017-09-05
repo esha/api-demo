@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Hello from '@/Hello.vue'
-import Error404 from '@/Error404.vue'
 
 Vue.use(VueRouter)
+
+function load (component) {
+  // '@' is aliased to src/components
+  return () => import(`@/${component}.vue`)
+}
 
 export default new VueRouter({
   /*
@@ -17,11 +20,11 @@ export default new VueRouter({
    * If switching back to default "hash" mode, don't forget to set the
    * build publicPath back to '' so Cordova builds work again.
    */
-  mode: 'history',
+
   routes: [
-    { path: '/', component: Hello },
+    { path: '/', component: load('Hello') },
 
     // Always leave this last one
-    { path: '*', component: Error404 } // Not found
+    { path: '*', component: load('Error404') } // Not found
   ]
 })
