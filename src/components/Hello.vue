@@ -14,7 +14,11 @@
 
       <q-toolbar-title>
         Quasar App
-        <div slot="subtitle">Running on Quasar v{{$q.version}}</div>
+        <div slot="subtitle">
+          Running on Quasar v{{$q.version}}
+          -
+          Loaded {{loaded}}
+        </div>
       </q-toolbar-title>
     </q-toolbar>
 
@@ -60,6 +64,7 @@
 </template>
 
 <script>
+import store from 'store2'
 import {
   dom,
   event,
@@ -82,6 +87,9 @@ const
   moveForce = 30,
   rotateForce = 40,
   RAD_TO_DEG = 180 / Math.PI
+
+const loaded = store('loaded', 1)
+store('loaded', loaded + 1)
 
 function getRotationFromAccel (accelX, accelY, accelZ) {
   /* Reference: http://stackoverflow.com/questions/3755059/3d-accelerometer-calculate-the-orientation#answer-30195572 */
@@ -115,7 +123,8 @@ export default {
       moveX: 0,
       moveY: 0,
       rotateY: 0,
-      rotateX: 0
+      rotateX: 0,
+      loaded
     }
   },
   computed: {
