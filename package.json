@@ -1,9 +1,14 @@
 {
-  "name": "quasar-app",
+  "name": "hnoss",
   "productName": "Genesis API Demo",
   "version": "0.0.1",
   "description": "A demo & test app for the ESHA Genesis API",
   "author": "ESHA Research <nathan@esha.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esha/hnoss.git"
+  },
   "scripts": {
     "clean": "node build/script.clean.js",
     "dev": "node build/script.dev.js",
