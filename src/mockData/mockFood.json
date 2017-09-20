@@ -1,0 +1,901 @@
+[{
+  "Id": 1,
+  "Name": "Lilac-breasted roller",
+  "Description": "Cookley",
+  "Notes": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+  "DefiningAmount": "5602251483331401",
+  "FoodType": "Health Care",
+  "AmountCost": "$3.55",
+  "DefaultWeightUnitId": "abeb13b5-f15f-4259-81dd-6da98fc4e19a"
+}, {
+  "Id": 2,
+  "Name": "Tailless tenrec",
+  "Description": "Duobam",
+  "Notes": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+  "DefiningAmount": "3558542434599917",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$68.59",
+  "DefaultWeightUnitId": "b4767214-2bdd-42f8-baf5-0aa3b785b246"
+}, {
+  "Id": 3,
+  "Name": "Quoll, eastern",
+  "Description": "Ventosanzap",
+  "Notes": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+  "DefiningAmount": "3559151513007278",
+  "FoodType": "Public Utilities",
+  "AmountCost": "$5.21",
+  "DefaultWeightUnitId": "dab969e3-e4f9-4746-909d-db0401ed2a54"
+}, {
+  "Id": 4,
+  "Name": "Monitor, water",
+  "Description": "Cardguard",
+  "Notes": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "DefiningAmount": "3539559458831772",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$2.87",
+  "DefaultWeightUnitId": "3f9e240a-0a86-4d40-ac2b-fb773c4c8a37"
+}, {
+  "Id": 5,
+  "Name": "Godwit, hudsonian",
+  "Description": "Biodex",
+  "Notes": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "DefiningAmount": "3541896740459889",
+  "FoodType": "n/a",
+  "AmountCost": "$48.96",
+  "DefaultWeightUnitId": "a7af4b3c-a282-4c09-9cf8-3dd63964d925"
+}, {
+  "Id": 6,
+  "Name": "Zorro, common",
+  "Description": "Y-find",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+  "DefiningAmount": "6762810136242143049",
+  "FoodType": "Finance",
+  "AmountCost": "$90.53",
+  "DefaultWeightUnitId": "9f2cf015-bd0d-4663-8414-cc85f6971e16"
+}, {
+  "Id": 7,
+  "Name": "Black kite",
+  "Description": "Konklux",
+  "Notes": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+  "DefiningAmount": "201423873512694",
+  "FoodType": "n/a",
+  "AmountCost": "$62.38",
+  "DefaultWeightUnitId": "5dc0bf2e-4e9b-48e4-a50b-b0e1b4c74e25"
+}, {
+  "Id": 8,
+  "Name": "Wapiti, elk,",
+  "Description": "Namfix",
+  "Notes": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+  "DefiningAmount": "5111813849904553",
+  "FoodType": "Health Care",
+  "AmountCost": "$22.93",
+  "DefaultWeightUnitId": "5b4b010f-7b9f-4c92-9221-fd83ebf40cad"
+}, {
+  "Id": 9,
+  "Name": "Pied butcher bird",
+  "Description": "Job",
+  "Notes": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+  "DefiningAmount": "676394960043942438",
+  "FoodType": "n/a",
+  "AmountCost": "$74.19",
+  "DefaultWeightUnitId": "6d01b4af-9045-473d-b298-5465fd71e6a9"
+}, {
+  "Id": 10,
+  "Name": "Flamingo, roseat",
+  "Description": "Asoka",
+  "Notes": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+  "DefiningAmount": "3558323466967292",
+  "FoodType": "n/a",
+  "AmountCost": "$98.49",
+  "DefaultWeightUnitId": "10db926e-28f8-4295-ba14-f2303cc522f2"
+}, {
+  "Id": 11,
+  "Name": "Green-winged trumpeter",
+  "Description": "Pannier",
+  "Notes": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "DefiningAmount": "3543290620011085",
+  "FoodType": "Technology",
+  "AmountCost": "$86.94",
+  "DefaultWeightUnitId": "8442d6f0-0412-4358-bf7e-9fa12d7ec674"
+}, {
+  "Id": 12,
+  "Name": "Cardinal, black-throated",
+  "Description": "Namfix",
+  "Notes": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+  "DefiningAmount": "675927752673513219",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$58.35",
+  "DefaultWeightUnitId": "81bc4303-6578-4bf6-a1cc-418aed7db39c"
+}, {
+  "Id": 13,
+  "Name": "Long-nosed bandicoot",
+  "Description": "Zoolab",
+  "Notes": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+  "DefiningAmount": "50182113877558854",
+  "FoodType": "Consumer Non-Durables",
+  "AmountCost": "$78.56",
+  "DefaultWeightUnitId": "c3b0c5fa-a796-4973-9b78-ce27d0eede6e"
+}, {
+  "Id": 14,
+  "Name": "Black-necked stork",
+  "Description": "Stim",
+  "Notes": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+  "DefiningAmount": "3551833371977381",
+  "FoodType": "n/a",
+  "AmountCost": "$44.31",
+  "DefaultWeightUnitId": "894bf4cb-e4dd-423e-af10-3d452498456f"
+}, {
+  "Id": 15,
+  "Name": "Goldeneye, barrows",
+  "Description": "Pannier",
+  "Notes": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "DefiningAmount": "3570371366415965",
+  "FoodType": "Technology",
+  "AmountCost": "$62.45",
+  "DefaultWeightUnitId": "90833eb7-cb40-4bf1-a8f2-37501d4e7d16"
+}, {
+  "Id": 16,
+  "Name": "Wattled crane",
+  "Description": "Pannier",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+  "DefiningAmount": "4508647925108786",
+  "FoodType": "n/a",
+  "AmountCost": "$52.34",
+  "DefaultWeightUnitId": "5d1ab487-155b-4fda-a2a0-d219bc3bf34f"
+}, {
+  "Id": 17,
+  "Name": "Whale, baleen",
+  "Description": "Tres-Zap",
+  "Notes": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+  "DefiningAmount": "3532863436954053",
+  "FoodType": "Technology",
+  "AmountCost": "$27.16",
+  "DefaultWeightUnitId": "b4658d5b-768d-4d53-a912-e28aa2692f0b"
+}, {
+  "Id": 18,
+  "Name": "Common long-nosed armadillo",
+  "Description": "Konklab",
+  "Notes": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+  "DefiningAmount": "3534336800643519",
+  "FoodType": "Finance",
+  "AmountCost": "$22.20",
+  "DefaultWeightUnitId": "805e7b52-38f7-40d1-81f5-221c822468ee"
+}, {
+  "Id": 19,
+  "Name": "Numbat",
+  "Description": "Bytecard",
+  "Notes": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+  "DefiningAmount": "4508678498134347",
+  "FoodType": "Consumer Durables",
+  "AmountCost": "$91.32",
+  "DefaultWeightUnitId": "c5abf4af-2b75-4750-947a-5e930a09d0b6"
+}, {
+  "Id": 20,
+  "Name": "Malagasy ground boa",
+  "Description": "Lotlux",
+  "Notes": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+  "DefiningAmount": "5048378491434182",
+  "FoodType": "Health Care",
+  "AmountCost": "$36.65",
+  "DefaultWeightUnitId": "e6ca7d97-a695-4a5a-8429-ff21dd6a7f0d"
+}, {
+  "Id": 21,
+  "Name": "Crane, black-crowned",
+  "Description": "Ronstring",
+  "Notes": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+  "DefiningAmount": "4017956088466509",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$75.32",
+  "DefaultWeightUnitId": "84851013-3806-4ca9-a56d-8f4a840542d5"
+}, {
+  "Id": 22,
+  "Name": "Common goldeneye",
+  "Description": "Holdlamis",
+  "Notes": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+  "DefiningAmount": "30061670552484",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$78.03",
+  "DefaultWeightUnitId": "ef35130e-096d-46e2-a41b-b66dd1031b59"
+}, {
+  "Id": 23,
+  "Name": "Deer, spotted",
+  "Description": "Tampflex",
+  "Notes": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+  "DefiningAmount": "5610291310038993",
+  "FoodType": "Energy",
+  "AmountCost": "$18.29",
+  "DefaultWeightUnitId": "e1d3c51a-9866-4864-b3eb-5d97da637b0c"
+}, {
+  "Id": 24,
+  "Name": "Porcupine, tree",
+  "Description": "Zontrax",
+  "Notes": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+  "DefiningAmount": "6304774702935750",
+  "FoodType": "Miscellaneous",
+  "AmountCost": "$34.07",
+  "DefaultWeightUnitId": "fe5b9c98-ce78-4d04-a064-4e936b2218d3"
+}, {
+  "Id": 25,
+  "Name": "Rufous tree pie",
+  "Description": "Pannier",
+  "Notes": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+  "DefiningAmount": "201813541017680",
+  "FoodType": "Finance",
+  "AmountCost": "$99.58",
+  "DefaultWeightUnitId": "dfac12b8-c4e4-479b-b6a2-f7ef9da49139"
+}, {
+  "Id": 26,
+  "Name": "Racer, blue",
+  "Description": "Tres-Zap",
+  "Notes": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+  "DefiningAmount": "4041596581702",
+  "FoodType": "n/a",
+  "AmountCost": "$96.47",
+  "DefaultWeightUnitId": "28ec0cad-9fdb-4593-9da3-c6d247bccbd0"
+}, {
+  "Id": 27,
+  "Name": "Elk, Wapiti",
+  "Description": "It",
+  "Notes": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+  "DefiningAmount": "5602236699209608",
+  "FoodType": "n/a",
+  "AmountCost": "$22.72",
+  "DefaultWeightUnitId": "baacc7ac-fa5e-483b-a416-c386e36f9ec3"
+}, {
+  "Id": 28,
+  "Name": "Magpie, australian",
+  "Description": "Bytecard",
+  "Notes": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "DefiningAmount": "5100171229414989",
+  "FoodType": "Energy",
+  "AmountCost": "$48.95",
+  "DefaultWeightUnitId": "5fdcf0eb-b01c-40ba-9238-cb2251e6527d"
+}, {
+  "Id": 29,
+  "Name": "White rhinoceros",
+  "Description": "Keylex",
+  "Notes": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+  "DefiningAmount": "5100137366565487",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$82.37",
+  "DefaultWeightUnitId": "50b49e6d-1604-4e84-a263-7ad01299aedc"
+}, {
+  "Id": 30,
+  "Name": "Wolf, timber",
+  "Description": "Job",
+  "Notes": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+  "DefiningAmount": "3581840216671867",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$65.00",
+  "DefaultWeightUnitId": "5be976e0-326f-49b0-a331-79a0fe772f39"
+}, {
+  "Id": 31,
+  "Name": "Western patch-nosed snake",
+  "Description": "Cardify",
+  "Notes": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "DefiningAmount": "3575271326792245",
+  "FoodType": "Finance",
+  "AmountCost": "$89.71",
+  "DefaultWeightUnitId": "c6c4883b-63fd-4d32-a10b-265bd9e8a8eb"
+}, {
+  "Id": 32,
+  "Name": "Lemur, ring-tailed",
+  "Description": "Regrant",
+  "Notes": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+  "DefiningAmount": "3568040110159245",
+  "FoodType": "n/a",
+  "AmountCost": "$8.84",
+  "DefaultWeightUnitId": "76e69fef-b645-46ea-a423-fd7fee0edc77"
+}, {
+  "Id": 33,
+  "Name": "Harbor seal",
+  "Description": "Duobam",
+  "Notes": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+  "DefiningAmount": "3587551944396768",
+  "FoodType": "Health Care",
+  "AmountCost": "$0.91",
+  "DefaultWeightUnitId": "4c4cb3cc-9dc2-4454-81e9-36c4b7511ba2"
+}, {
+  "Id": 34,
+  "Name": "Indian tree pie",
+  "Description": "Sonsing",
+  "Notes": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+  "DefiningAmount": "3589325441278326",
+  "FoodType": "Consumer Non-Durables",
+  "AmountCost": "$51.55",
+  "DefaultWeightUnitId": "ba8248a8-35ab-43c6-ae3c-d27b75b3a019"
+}, {
+  "Id": 35,
+  "Name": "Lizard, collared",
+  "Description": "Pannier",
+  "Notes": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "DefiningAmount": "3573887407105197",
+  "FoodType": "n/a",
+  "AmountCost": "$64.00",
+  "DefaultWeightUnitId": "6126e4bf-630d-4ca5-85c0-1041e1f3fe02"
+}, {
+  "Id": 36,
+  "Name": "Cobra (unidentified)",
+  "Description": "Span",
+  "Notes": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+  "DefiningAmount": "30086581721118",
+  "FoodType": "n/a",
+  "AmountCost": "$82.48",
+  "DefaultWeightUnitId": "c026a710-8e6b-435e-b2d6-a5c15196216a"
+}, {
+  "Id": 37,
+  "Name": "Paddy heron (unidentified)",
+  "Description": "Toughjoyfax",
+  "Notes": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "DefiningAmount": "5100177203175918",
+  "FoodType": "Basic Industries",
+  "AmountCost": "$61.08",
+  "DefaultWeightUnitId": "53c96a71-b7b2-4770-af07-cd34809e0120"
+}, {
+  "Id": 38,
+  "Name": "Bird, magnificent frigate",
+  "Description": "Fixflex",
+  "Notes": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "DefiningAmount": "56022395972719090",
+  "FoodType": "n/a",
+  "AmountCost": "$7.86",
+  "DefaultWeightUnitId": "26754507-34dc-4aca-8da0-babd657b618e"
+}, {
+  "Id": 39,
+  "Name": "Short-beaked echidna",
+  "Description": "Asoka",
+  "Notes": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+  "DefiningAmount": "4913973639115233",
+  "FoodType": "n/a",
+  "AmountCost": "$19.99",
+  "DefaultWeightUnitId": "f151d68f-6c78-45e7-8e22-acc3c813ead0"
+}, {
+  "Id": 40,
+  "Name": "Red-necked wallaby",
+  "Description": "Viva",
+  "Notes": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+  "DefiningAmount": "3582786370694261",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$34.62",
+  "DefaultWeightUnitId": "1260a089-1ca5-4a39-96a6-d2383f078473"
+}, {
+  "Id": 41,
+  "Name": "White-rumped vulture",
+  "Description": "Transcof",
+  "Notes": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+  "DefiningAmount": "3564614284252236",
+  "FoodType": "Energy",
+  "AmountCost": "$46.41",
+  "DefaultWeightUnitId": "9bef1cab-28fe-45ca-90c0-11f59937faaf"
+}, {
+  "Id": 42,
+  "Name": "Oriental white-backed vulture",
+  "Description": "Solarbreeze",
+  "Notes": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+  "DefiningAmount": "376324586330565",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$9.30",
+  "DefaultWeightUnitId": "fe5b1780-db4d-43ec-8b17-77012f61d5ff"
+}, {
+  "Id": 43,
+  "Name": "Wallaby, dama",
+  "Description": "Lotlux",
+  "Notes": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+  "DefiningAmount": "3571859816796488",
+  "FoodType": "Finance",
+  "AmountCost": "$15.73",
+  "DefaultWeightUnitId": "19a47acc-fc44-4909-85c3-2dce3d9a2ce7"
+}, {
+  "Id": 44,
+  "Name": "Red-breasted nuthatch",
+  "Description": "Latlux",
+  "Notes": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+  "DefiningAmount": "5602217423150227",
+  "FoodType": "n/a",
+  "AmountCost": "$12.48",
+  "DefaultWeightUnitId": "caea7dda-3764-4899-8c54-918825b5e91e"
+}, {
+  "Id": 45,
+  "Name": "Black-backed magpie",
+  "Description": "Overhold",
+  "Notes": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "DefiningAmount": "374622652312132",
+  "FoodType": "n/a",
+  "AmountCost": "$59.16",
+  "DefaultWeightUnitId": "361739a9-f89f-46cc-819e-b4ded4c524f8"
+}, {
+  "Id": 46,
+  "Name": "Orca",
+  "Description": "Stronghold",
+  "Notes": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+  "DefiningAmount": "5010128340363858",
+  "FoodType": "Miscellaneous",
+  "AmountCost": "$55.43",
+  "DefaultWeightUnitId": "09db9ae4-f8d1-4404-8a9f-c8d79bbf84e4"
+}, {
+  "Id": 47,
+  "Name": "Constrictor, eastern boa",
+  "Description": "Gembucket",
+  "Notes": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+  "DefiningAmount": "3579680744362660",
+  "FoodType": "Transportation",
+  "AmountCost": "$30.27",
+  "DefaultWeightUnitId": "3703f212-bac1-47bd-a5af-3f407a004e98"
+}, {
+  "Id": 48,
+  "Name": "South African hedgehog",
+  "Description": "Holdlamis",
+  "Notes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+  "DefiningAmount": "5020828573543223472",
+  "FoodType": "Health Care",
+  "AmountCost": "$21.06",
+  "DefaultWeightUnitId": "a019284c-de2a-4083-a509-7b51caaab12f"
+}, {
+  "Id": 49,
+  "Name": "Seal, southern elephant",
+  "Description": "Namfix",
+  "Notes": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "DefiningAmount": "6333023443468241587",
+  "FoodType": "n/a",
+  "AmountCost": "$15.31",
+  "DefaultWeightUnitId": "43a8f2b5-7453-4295-bbb8-b36c58552b49"
+}, {
+  "Id": 50,
+  "Name": "Woylie",
+  "Description": "Rank",
+  "Notes": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+  "DefiningAmount": "3589754645122974",
+  "FoodType": "Miscellaneous",
+  "AmountCost": "$44.95",
+  "DefaultWeightUnitId": "baaaa5dc-e68f-41ae-8865-e07a26f7b701"
+}, {
+  "Id": 51,
+  "Name": "Turkey, common",
+  "Description": "Zathin",
+  "Notes": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+  "DefiningAmount": "5401866242154563",
+  "FoodType": "Finance",
+  "AmountCost": "$82.17",
+  "DefaultWeightUnitId": "8f731ea2-3275-4698-9e72-d2a483645369"
+}, {
+  "Id": 52,
+  "Name": "Otter, small-clawed",
+  "Description": "Fixflex",
+  "Notes": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+  "DefiningAmount": "6334833557339650",
+  "FoodType": "Finance",
+  "AmountCost": "$44.08",
+  "DefaultWeightUnitId": "b6b788ca-1227-476f-a7fe-a9c7abc2f0fb"
+}, {
+  "Id": 53,
+  "Name": "Australian magpie",
+  "Description": "Latlux",
+  "Notes": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+  "DefiningAmount": "5002354973938986",
+  "FoodType": "Technology",
+  "AmountCost": "$13.37",
+  "DefaultWeightUnitId": "70bc6420-1f2e-4385-86e1-3e9816eebdf3"
+}, {
+  "Id": 54,
+  "Name": "Crane, wattled",
+  "Description": "Duobam",
+  "Notes": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+  "DefiningAmount": "3567220400103084",
+  "FoodType": "Basic Industries",
+  "AmountCost": "$25.67",
+  "DefaultWeightUnitId": "d30cf9b6-2fa8-49be-9d7f-54d157282ac1"
+}, {
+  "Id": 55,
+  "Name": "Pelican, brown",
+  "Description": "Job",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+  "DefiningAmount": "3568648687749501",
+  "FoodType": "Finance",
+  "AmountCost": "$86.18",
+  "DefaultWeightUnitId": "71cddb7e-5b8d-4bcd-9525-117b8a22911b"
+}, {
+  "Id": 56,
+  "Name": "Bandicoot, short-nosed",
+  "Description": "Tampflex",
+  "Notes": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+  "DefiningAmount": "3582090419461869",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$59.85",
+  "DefaultWeightUnitId": "92758042-349d-40be-a996-ebb1adc72573"
+}, {
+  "Id": 57,
+  "Name": "Gecko, ring-tailed",
+  "Description": "Opela",
+  "Notes": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+  "DefiningAmount": "675945926007156287",
+  "FoodType": "Health Care",
+  "AmountCost": "$68.69",
+  "DefaultWeightUnitId": "8fe910aa-96db-41c4-bd30-9162ff9a6c77"
+}, {
+  "Id": 58,
+  "Name": "Andean goose",
+  "Description": "Bamity",
+  "Notes": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+  "DefiningAmount": "5048373608792465",
+  "FoodType": "Health Care",
+  "AmountCost": "$39.61",
+  "DefaultWeightUnitId": "ffcf8b81-1271-4c4f-95d2-414a143dd68e"
+}, {
+  "Id": 59,
+  "Name": "Seven-banded armadillo",
+  "Description": "Stim",
+  "Notes": "Fusce consequat. Nulla nisl. Nunc nisl.",
+  "DefiningAmount": "5002350657678047",
+  "FoodType": "Transportation",
+  "AmountCost": "$44.51",
+  "DefaultWeightUnitId": "4bb9a708-7042-48c2-b8ff-0dc6a1d9b58d"
+}, {
+  "Id": 60,
+  "Name": "Elegant crested tinamou",
+  "Description": "Daltfresh",
+  "Notes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+  "DefiningAmount": "3549291812681879",
+  "FoodType": "Technology",
+  "AmountCost": "$20.51",
+  "DefaultWeightUnitId": "c0fc4738-8953-431c-a068-6d51b1e72aa6"
+}, {
+  "Id": 61,
+  "Name": "Parakeet, rose-ringed",
+  "Description": "Opela",
+  "Notes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+  "DefiningAmount": "3576538624614860",
+  "FoodType": "Transportation",
+  "AmountCost": "$78.47",
+  "DefaultWeightUnitId": "651b2f1b-f54d-417b-8689-7d573b811e8d"
+}, {
+  "Id": 62,
+  "Name": "Jungle kangaroo",
+  "Description": "Pannier",
+  "Notes": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+  "DefiningAmount": "5456375634228278",
+  "FoodType": "Finance",
+  "AmountCost": "$38.14",
+  "DefaultWeightUnitId": "bc237fa9-92c0-4a57-b5d1-693e03a04edf"
+}, {
+  "Id": 63,
+  "Name": "Goliath heron",
+  "Description": "Hatity",
+  "Notes": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+  "DefiningAmount": "201853841620783",
+  "FoodType": "Energy",
+  "AmountCost": "$0.40",
+  "DefaultWeightUnitId": "fdffd209-fc5e-4f21-81db-352b410f1f84"
+}, {
+  "Id": 64,
+  "Name": "Jackrabbit, white-tailed",
+  "Description": "Solarbreeze",
+  "Notes": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+  "DefiningAmount": "50186398020238605",
+  "FoodType": "Health Care",
+  "AmountCost": "$60.76",
+  "DefaultWeightUnitId": "158ca20a-212f-48b7-a1d7-1432fae28fbb"
+}, {
+  "Id": 65,
+  "Name": "Asian red fox",
+  "Description": "Zathin",
+  "Notes": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+  "DefiningAmount": "3582902031658682",
+  "FoodType": "Miscellaneous",
+  "AmountCost": "$95.55",
+  "DefaultWeightUnitId": "5a588d43-ab20-4016-bc6f-5e739ba407c2"
+}, {
+  "Id": 66,
+  "Name": "Seal, northern fur",
+  "Description": "Zaam-Dox",
+  "Notes": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+  "DefiningAmount": "30386970970254",
+  "FoodType": "n/a",
+  "AmountCost": "$95.60",
+  "DefaultWeightUnitId": "d15a4c38-a399-405c-ad8d-9feb8cd171ef"
+}, {
+  "Id": 67,
+  "Name": "Steenbok",
+  "Description": "Viva",
+  "Notes": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+  "DefiningAmount": "633363170927119651",
+  "FoodType": "n/a",
+  "AmountCost": "$73.14",
+  "DefaultWeightUnitId": "f727ac96-46b4-4075-8532-632ebe3a8ed0"
+}, {
+  "Id": 68,
+  "Name": "Lesser flamingo",
+  "Description": "Toughjoyfax",
+  "Notes": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+  "DefiningAmount": "6334024842037650425",
+  "FoodType": "n/a",
+  "AmountCost": "$75.71",
+  "DefaultWeightUnitId": "cd1907e2-1b20-4daa-af68-6eb0bd4e1d19"
+}, {
+  "Id": 69,
+  "Name": "Spoonbill, european",
+  "Description": "Fixflex",
+  "Notes": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+  "DefiningAmount": "3538297813707798",
+  "FoodType": "Finance",
+  "AmountCost": "$34.46",
+  "DefaultWeightUnitId": "dde2a8d0-091a-46d5-9cb5-a248360c8ddb"
+}, {
+  "Id": 70,
+  "Name": "Common wallaroo",
+  "Description": "Opela",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+  "DefiningAmount": "3538485733942518",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$38.66",
+  "DefaultWeightUnitId": "e429e54a-2bd1-49f8-b030-f6942f9b92e2"
+}, {
+  "Id": 71,
+  "Name": "Antelope, roan",
+  "Description": "Bigtax",
+  "Notes": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+  "DefiningAmount": "30275868013584",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$38.54",
+  "DefaultWeightUnitId": "2757e7dc-ea76-466d-9ce3-301406f6e04b"
+}, {
+  "Id": 72,
+  "Name": "American beaver",
+  "Description": "Zathin",
+  "Notes": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+  "DefiningAmount": "3536507655110279",
+  "FoodType": "Basic Industries",
+  "AmountCost": "$39.59",
+  "DefaultWeightUnitId": "7048642d-391c-46bf-9953-4b9f379bad14"
+}, {
+  "Id": 73,
+  "Name": "Coot, red-knobbed",
+  "Description": "Tin",
+  "Notes": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+  "DefiningAmount": "3587418108922724",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$37.48",
+  "DefaultWeightUnitId": "628f476d-cd99-4581-9c74-8349a7ebbbd9"
+}, {
+  "Id": 74,
+  "Name": "Cockatoo, roseate",
+  "Description": "Alphazap",
+  "Notes": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+  "DefiningAmount": "3563396562565015",
+  "FoodType": "Finance",
+  "AmountCost": "$66.17",
+  "DefaultWeightUnitId": "0aa084ae-ad65-4a31-a40f-1a48e195d092"
+}, {
+  "Id": 75,
+  "Name": "Blue-tongued skink",
+  "Description": "Kanlam",
+  "Notes": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+  "DefiningAmount": "5100148787906572",
+  "FoodType": "n/a",
+  "AmountCost": "$57.54",
+  "DefaultWeightUnitId": "3bbf9d15-4496-4e73-8335-0c7e5217ce6e"
+}, {
+  "Id": 76,
+  "Name": "Impala",
+  "Description": "Zontrax",
+  "Notes": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+  "DefiningAmount": "3542392080249386",
+  "FoodType": "Consumer Durables",
+  "AmountCost": "$62.76",
+  "DefaultWeightUnitId": "35c7d39c-4545-4595-a010-2ad7a039425d"
+}, {
+  "Id": 77,
+  "Name": "Superb starling",
+  "Description": "Trippledex",
+  "Notes": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "DefiningAmount": "4017955765276",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$76.91",
+  "DefaultWeightUnitId": "fab84cd2-7910-444b-ab18-004350225728"
+}, {
+  "Id": 78,
+  "Name": "Marten, american",
+  "Description": "Fixflex",
+  "Notes": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+  "DefiningAmount": "670912172390834731",
+  "FoodType": "Finance",
+  "AmountCost": "$48.35",
+  "DefaultWeightUnitId": "712de1df-a812-46cf-b708-0e601d8dcde2"
+}, {
+  "Id": 79,
+  "Name": "Arctic lemming",
+  "Description": "Asoka",
+  "Notes": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+  "DefiningAmount": "5207503470791610",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$47.56",
+  "DefaultWeightUnitId": "68873651-0d12-45b0-903d-2feac552e679"
+}, {
+  "Id": 80,
+  "Name": "Euro wallaby",
+  "Description": "Fix San",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+  "DefiningAmount": "374622292864799",
+  "FoodType": "n/a",
+  "AmountCost": "$23.59",
+  "DefaultWeightUnitId": "4c62330e-c3ff-45a3-8a0b-8b0cd9e43262"
+}, {
+  "Id": 81,
+  "Name": "Tenrec, tailless",
+  "Description": "Zamit",
+  "Notes": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+  "DefiningAmount": "4903973211760584208",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$74.37",
+  "DefaultWeightUnitId": "927c6559-a700-4f98-bd5f-bdd823b3f05d"
+}, {
+  "Id": 82,
+  "Name": "Wolf, timber",
+  "Description": "Tin",
+  "Notes": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+  "DefiningAmount": "3549497567983150",
+  "FoodType": "Technology",
+  "AmountCost": "$81.49",
+  "DefaultWeightUnitId": "0425b1b4-bd38-46f5-87c5-0272be64773e"
+}, {
+  "Id": 83,
+  "Name": "Coatimundi, ring-tailed",
+  "Description": "Fixflex",
+  "Notes": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+  "DefiningAmount": "5100143882780287",
+  "FoodType": "Energy",
+  "AmountCost": "$13.76",
+  "DefaultWeightUnitId": "3d11f6af-59da-49a5-812c-239fb1adb486"
+}, {
+  "Id": 84,
+  "Name": "Francolin, coqui",
+  "Description": "Job",
+  "Notes": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+  "DefiningAmount": "3582678755622019",
+  "FoodType": "n/a",
+  "AmountCost": "$40.22",
+  "DefaultWeightUnitId": "fc939c93-c2c2-48f3-b51c-95b401072fed"
+}, {
+  "Id": 85,
+  "Name": "Verreaux's sifaka",
+  "Description": "Treeflex",
+  "Notes": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+  "DefiningAmount": "3536434710574433",
+  "FoodType": "n/a",
+  "AmountCost": "$23.61",
+  "DefaultWeightUnitId": "ecc17ccd-413c-4aa0-b6c6-7545f9083fc3"
+}, {
+  "Id": 86,
+  "Name": "Pacific gull",
+  "Description": "Zoolab",
+  "Notes": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+  "DefiningAmount": "5602219689854854523",
+  "FoodType": "Energy",
+  "AmountCost": "$1.19",
+  "DefaultWeightUnitId": "0fd711d7-b408-48e9-b767-b924bdbc41fd"
+}, {
+  "Id": 87,
+  "Name": "Buffalo, asian water",
+  "Description": "Viva",
+  "Notes": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+  "DefiningAmount": "56022305158104157",
+  "FoodType": "Consumer Services",
+  "AmountCost": "$88.06",
+  "DefaultWeightUnitId": "a1e8c0bd-a88f-4299-a295-76b8c51caeb4"
+}, {
+  "Id": 88,
+  "Name": "White-eye, pale",
+  "Description": "Matsoft",
+  "Notes": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+  "DefiningAmount": "5282770623868409",
+  "FoodType": "Technology",
+  "AmountCost": "$53.08",
+  "DefaultWeightUnitId": "df298e03-e62d-4638-ac21-19dea37b92a2"
+}, {
+  "Id": 89,
+  "Name": "Common zorro",
+  "Description": "Kanlam",
+  "Notes": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+  "DefiningAmount": "5002359095117526",
+  "FoodType": "Energy",
+  "AmountCost": "$48.42",
+  "DefaultWeightUnitId": "635dcb31-231c-4ede-92de-f1f9e683c936"
+}, {
+  "Id": 90,
+  "Name": "Peacock, blue",
+  "Description": "Solarbreeze",
+  "Notes": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+  "DefiningAmount": "5602213722142544",
+  "FoodType": "n/a",
+  "AmountCost": "$10.38",
+  "DefaultWeightUnitId": "d2175b26-0cb1-4046-ac35-6e4630c945c3"
+}, {
+  "Id": 91,
+  "Name": "Bushbuck",
+  "Description": "Bitchip",
+  "Notes": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+  "DefiningAmount": "493673676895286839",
+  "FoodType": "Finance",
+  "AmountCost": "$5.65",
+  "DefaultWeightUnitId": "a28b66a2-e910-4b8e-9ada-5bd19b9686d1"
+}, {
+  "Id": 92,
+  "Name": "Crane, stanley",
+  "Description": "Bamity",
+  "Notes": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+  "DefiningAmount": "58932796945597429",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$89.73",
+  "DefaultWeightUnitId": "e1df25f4-47c3-46c6-8311-d636d69a74a9"
+}, {
+  "Id": 93,
+  "Name": "Crested porcupine",
+  "Description": "Namfix",
+  "Notes": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+  "DefiningAmount": "630405799337151882",
+  "FoodType": "Finance",
+  "AmountCost": "$24.62",
+  "DefaultWeightUnitId": "511e1ba6-6d5c-4a43-9d65-157a10bd8f9a"
+}, {
+  "Id": 94,
+  "Name": "Deer, barasingha",
+  "Description": "Konklux",
+  "Notes": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+  "DefiningAmount": "3562786870114103",
+  "FoodType": "Consumer Non-Durables",
+  "AmountCost": "$60.08",
+  "DefaultWeightUnitId": "5a3bc3e6-afb6-4c00-88d6-a80c8a9d6123"
+}, {
+  "Id": 95,
+  "Name": "Deer, red",
+  "Description": "Sonair",
+  "Notes": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+  "DefiningAmount": "3540348446181426",
+  "FoodType": "n/a",
+  "AmountCost": "$43.32",
+  "DefaultWeightUnitId": "b5f6d91d-f298-44bf-9fff-84aad198bcaf"
+}, {
+  "Id": 96,
+  "Name": "White-headed vulture",
+  "Description": "Tempsoft",
+  "Notes": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+  "DefiningAmount": "3581265464490457",
+  "FoodType": "Health Care",
+  "AmountCost": "$88.17",
+  "DefaultWeightUnitId": "8cc085c1-c3b6-4bd3-81b8-c8069b91c209"
+}, {
+  "Id": 97,
+  "Name": "Magpie, australian",
+  "Description": "Span",
+  "Notes": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+  "DefiningAmount": "3562412891167380",
+  "FoodType": "n/a",
+  "AmountCost": "$70.77",
+  "DefaultWeightUnitId": "ec24b2bd-35d3-4ad8-8b4d-8767636bbf60"
+}, {
+  "Id": 98,
+  "Name": "Zorilla",
+  "Description": "Tempsoft",
+  "Notes": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+  "DefiningAmount": "6304508759416011",
+  "FoodType": "Capital Goods",
+  "AmountCost": "$19.96",
+  "DefaultWeightUnitId": "394a03e7-7e7f-4df5-85aa-073c9ccdfb2d"
+}, {
+  "Id": 99,
+  "Name": "Ocelot",
+  "Description": "Y-find",
+  "Notes": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+  "DefiningAmount": "5448030722669971",
+  "FoodType": "Finance",
+  "AmountCost": "$96.25",
+  "DefaultWeightUnitId": "d5303933-7d1b-474b-9576-38be7898dbec"
+}, {
+  "Id": 100,
+  "Name": "Mongoose, javan gold-spotted",
+  "Description": "Bitwolf",
+  "Notes": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+  "DefiningAmount": "3543765218713945",
+  "FoodType": "Consumer Non-Durables",
+  "AmountCost": "$86.24",
+  "DefaultWeightUnitId": "522e87a9-8747-4b4b-a78d-0a824dc1dd03"
+}]
