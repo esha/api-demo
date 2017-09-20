@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Hello from '@/Hello.vue'
+import DevDoc from '@/DevDoc.vue'
 import Error404 from '@/Error404.vue'
 
 Vue.use(VueRouter)
@@ -20,7 +21,8 @@ export default new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: Hello },
-
+    { path: '/dev', component: DevDoc },
+    
     // Always leave this last one
     { path: '*', component: Error404 } // Not found
   ]
