@@ -50,7 +50,8 @@ export default {
           'vue-class-component': 'https://github.com/vuejs/vue-class-component'
         },
         'Resource Lists': {
-          'awesome-vue': 'https://github.com/vuejs/awesome-vue'
+          'awesome-vue': 'https://github.com/vuejs/awesome-vue',
+          'Conceptual overview of project layout': '/StartingDev'
         }
       }
     }

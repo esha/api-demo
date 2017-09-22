@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Hello from '@/Hello.vue'
 import DevDoc from '@/DevDoc.vue'
 import Error404 from '@/Error404.vue'
+import StartingDev from '@/StartingDev.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,7 @@ export default new VueRouter({
   routes: [
     { path: '/', component: Hello },
     { path: '/dev', component: DevDoc },
+    { path: '/StartingDev', component: StartingDev },
     
     // Always leave this last one
     { path: '*', component: Error404 } // Not found
