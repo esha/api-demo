@@ -37,7 +37,8 @@ export default {
         },
         'Tutorials': {
           'Vue-cli webpack + TypeScript': 'https://alexjoverm.github.io/2017/06/28/Integrate-TypeScript-in-your-Vue-project/',
-          'Vue 2 + TypeScript 2 Guide': 'https://herringtondarkholme.github.io/2016/10/03/vue2-ts2/'
+          'Vue 2 + TypeScript 2 Guide': 'https://herringtondarkholme.github.io/2016/10/03/vue2-ts2/',
+          'Intro to Dev w/Hnoss\' Stack': '/dev/starting'
         },
         'Support': {
           'Vue Forum': 'https://forum.vuejs.org',
