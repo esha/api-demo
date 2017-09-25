@@ -23,7 +23,7 @@ export default new VueRouter({
   routes: [
     { path: '/', component: Hello },
     { path: '/dev', component: DevDoc },
-    { path: '/StartingDev', component: StartingDev },
+    { path: '/dev/starting', component: StartingDev },
     
     // Always leave this last one
     { path: '*', component: Error404 } // Not found
