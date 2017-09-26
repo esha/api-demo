@@ -1,5 +1,5 @@
 <template>
-    <div class='app-startingdev'>
+    <div class='app-startingdev layout-padding'>
     <vue-markdown>
 
 # How to do Development on Hnoss
