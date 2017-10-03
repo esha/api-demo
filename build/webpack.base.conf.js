@@ -46,18 +46,21 @@ module.exports = {
         }
       },
       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: projectRoot,
+        exclude: /node_modules/,
+        options: {
+            presets: ['es2015']
+        }
+      },
+      {
         test: /\.ts$/,
         loader: 'ts-loader',
         exclude: /node_modules|vue\src/,
         options: {
           appendTsSuffixTo: [/\.vue$/]
         }
-      },
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        include: projectRoot,
-        exclude: /node_modules/
       },
       {
         test: /\.vue$/,
