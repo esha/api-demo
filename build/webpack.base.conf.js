@@ -59,7 +59,10 @@ module.exports = {
         loader: 'ts-loader',
         exclude: /node_modules|vue\src/,
         options: {
-          appendTsSuffixTo: [/\.vue$/]
+          appendTsSuffixTo: [/\.vue$/],
+          resolve: {
+            extensions: [ '.ts', '.tsx', ".js", ".json"]
+          }
         }
       },
       {
