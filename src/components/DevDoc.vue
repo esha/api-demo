@@ -16,7 +16,7 @@
 <script lang="ts">
 export default {
   name: 'devdoc',
-  data () {
+  data() {
     return {
       msg: 'Demo App Documentation',
       links: {

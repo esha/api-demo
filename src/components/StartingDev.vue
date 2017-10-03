@@ -100,7 +100,7 @@ In the `*.vue` files, there are 3 sections:
 import vueMarkdown from 'vue-markdown'
 export default {
   name: 'app-startingdev',
-  data () {
+  data() {
     return {}
   },
   components: {

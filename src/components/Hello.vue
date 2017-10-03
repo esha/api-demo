@@ -47,7 +47,7 @@
   </q-layout>
 </template>
 
-<script>
+<script lang="ts">
 import store from 'store2'
 import {
   openURL,
@@ -80,13 +80,13 @@ export default {
     QItemSide,
     QItemMain
   },
-  data () {
+  data() {
     return {
       loaded
     }
   },
   methods: {
-    launch (url) {
+    launch(url: string) {
       openURL(url)
     }
   }

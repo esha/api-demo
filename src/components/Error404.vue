@@ -39,13 +39,13 @@ export default {
     QBtn,
     QIcon
   },
-  data () {
+  data() {
     return {
       canGoBack: window.history.length > 1
     }
   },
   methods: {
-    goBack () {
+    goBack() {
       window.history.go(-1)
     }
   }
