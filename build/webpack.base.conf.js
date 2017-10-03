@@ -116,6 +116,7 @@ module.exports = {
       format: config.progressFormat
     })
   ],
+  devtool: 'inline-source-map',  
   performance: {
     hints: false
   }
