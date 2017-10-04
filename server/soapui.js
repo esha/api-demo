@@ -1,5 +1,6 @@
 var express = require('express');
 var logfmt = require('logfmt');
+var cors = require('cors');
 var request = require('request');
 var app = express();
 var api = process.env.API || 'http://localhost:8088';
@@ -14,10 +15,11 @@ console.log('Using API:', api);
 
 app.use(logfmt.requestLogger());
 
-app.get('/api/*', function(req, res) {
+app.options('/api/*', cors());
+app.get('/api/*', cors(), function(req, res) {
     request(toApi(req.originalUrl)).pipe(res);
 });
-app.post('/api/*', function(req, res) {
+app.post('/api/*', cors(), function(req, res) {
     req.pipe(request.post(toApi(req.originalUrl))).pipe(res);
 });
 
