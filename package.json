@@ -25,7 +25,7 @@
     "quasar-extras": "0.x",
     "quasar-framework": "^0.14.1",
     "request": "^2.83.0",
-    "store2": "^2.5.6",
+    "store2": "^2.5.7",
     "vue": "~2.3.4",
     "vue-class-component": "^5.0.2",
     "vue-markdown": "^2.2.4",
