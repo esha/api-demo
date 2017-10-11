@@ -32,9 +32,10 @@ module.exports = {
     'import/namespace': 2,
     'import/default': 2,
     'import/export': 2,
+    'indent': [1, 4],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'brace-style': [2, 'stroustrup', { 'allowSingleLine': true }],
+    'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'semi': 0,
     'space-before-function-paren': ['warn', 'never']
   }
