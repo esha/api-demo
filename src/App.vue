@@ -1,15 +1,23 @@
 <template>
   <!-- Don't drop "q-app" class -->
   <div id="q-app">
-    <router-view />
+    <Genesis-Service>
+      <router-view />
+    </Genesis-Service>
   </div>
 </template>
 
 <script>
+import GenesisService from '@/GenesisService.vue';
+
 /*
  * Root component
  */
-export default {}
+export default {
+  components: {
+    GenesisService
+  }
+}
 </script>
 
 <style></style>
