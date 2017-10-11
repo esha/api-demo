@@ -6,15 +6,16 @@
 </template>
 
 <script>
-import Posterior from 'posterior'
+import Posterior from 'posterior';
+import store from 'store2';
 
 export default {
   data() {
-    return {}
+    return {};
   },
   methods: {
     soap() {
-      console.log('Posterior', Posterior)
+      console.log('Posterior', Posterior);
       const SoapUI = window.Posterior({
         url: 'http://localhost:8000/api/FoodQuerySoapService',
         method: 'POST',
@@ -35,11 +36,12 @@ export default {
   </soap:Body>
 </soap:Envelope>`
         }
-      })
+      });
       return SoapUI().then((val) => {
-        console.log(val)
-        return val
-      })
+        console.log(val);
+        store('soap', val);
+        return val;
+      });
     }
   }
 }
