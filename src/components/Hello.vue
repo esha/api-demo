@@ -48,6 +48,7 @@
 </template>
 
 <script lang="ts">
+/* eslint-disable */
 import store from 'store2'
 import {
   openURL,

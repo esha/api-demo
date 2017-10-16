@@ -98,14 +98,14 @@ In the `*.vue` files, there are 3 sections:
 
 <script>
 import vueMarkdown from 'vue-markdown'
+
 export default {
-  name: 'app-startingdev',
-  data() {
-    return {}
-  },
-  components: {
-    vueMarkdown
-  }
+    data() {
+        return {}
+    },
+    components: {
+        vueMarkdown
+    }
 }
 </script>
 

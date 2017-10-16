@@ -15,48 +15,48 @@
 
 <script lang="ts">
 export default {
-  name: 'devdoc',
-  data() {
-    return {
-      msg: 'Demo App Documentation',
-      links: {
-        'Project': {
-          'Source': 'https://github.com/esha/hnoss',
-          'Issues': 'https://github.com/esha/hnoss/issues'
-        },
-        'Major Dependencies': {
-          'quasar': 'http://quasar-framework.org',
-          'vue.js': 'https://vuejs.org',
-          'webpack': 'https://webpack.js.org/',
-          'typescript': 'https://www.typescriptlang.org/',
-          'vue-router': 'http://router.vuejs.org/',
-          'vue-loader': 'https://vue-loader.vuejs.org/en/',
-          'ts-loader': 'https://github.com/TypeStrong/ts-loader',
-          'stylus': 'http://stylus-lang.com/'
-          // 'vue-cli webpack template': 'http://vuejs-templates.github.io/webpack/'
-        },
-        'Tutorials': {
-          'Vue-cli webpack + TypeScript': 'https://alexjoverm.github.io/2017/06/28/Integrate-TypeScript-in-your-Vue-project/',
-          'Vue 2 + TypeScript 2 Guide': 'https://herringtondarkholme.github.io/2016/10/03/vue2-ts2/',
-          'Intro to Dev w/Hnoss\' Stack': '/dev/starting'
-        },
-        'Support': {
-          'Vue Forum': 'https://forum.vuejs.org',
-          'Vue Gitter Chat': 'https://gitter.im/vuejs/vue',
-          'Quasar Forum': 'http://forum.quasar-framework.org',
-          'Quasar Gitter Chat': 'https://gitter.im/quasarframework/Lobby'
-        },
-        'Major Dependencies Under Consideration': {
-          'vuex': 'http://vuex.vuejs.org/',
-          'vue-class-component': 'https://github.com/vuejs/vue-class-component'
-        },
-        'Resource Lists': {
-          'awesome-vue': 'https://github.com/vuejs/awesome-vue',
-          'Conceptual overview of project layout': '/StartingDev'
+    data() {
+        return {
+            msg: 'Demo App Documentation',
+            links: {
+                'Project': {
+                    'Source': 'https://github.com/esha/hnoss',
+                    'Issues': 'https://github.com/esha/hnoss/issues'
+                },
+                'Major Dependencies': {
+                    'quasar': 'http://quasar-framework.org',
+                    'vue.js': 'https://vuejs.org',
+                    'webpack': 'https://webpack.js.org/',
+                    'typescript': 'https://www.typescriptlang.org/',
+                    'vue-router': 'http://router.vuejs.org/',
+                    'vue-loader': 'https://vue-loader.vuejs.org/en/',
+                    'ts-loader': 'https://github.com/TypeStrong/ts-loader',
+                    'stylus': 'http://stylus-lang.com/'
+                    // 'vue-cli webpack template': 'http://vuejs-templates.github.io/webpack/'
+                },
+                'Tutorials': {
+                    'Vue-cli webpack + TypeScript': 'https://alexjoverm.github.io/2017/06/28/Integrate-TypeScript-in-your-Vue-project/',
+                    'Vue 2 + TypeScript 2 Guide': 'https://herringtondarkholme.github.io/2016/10/03/vue2-ts2/',
+                    'Abstract Vue Components': 'https://alligator.io/vuejs/vue-abstract-components/',
+                    'Intro to Dev w/Hnoss\' Stack': '/dev/starting'
+                },
+                'Support': {
+                    'Vue Forum': 'https://forum.vuejs.org',
+                    'Vue Gitter Chat': 'https://gitter.im/vuejs/vue',
+                    'Quasar Forum': 'http://forum.quasar-framework.org',
+                    'Quasar Gitter Chat': 'https://gitter.im/quasarframework/Lobby'
+                },
+                'Major Dependencies Under Consideration': {
+                    'vuex': 'http://vuex.vuejs.org/',
+                    'vue-class-component': 'https://github.com/vuejs/vue-class-component'
+                },
+                'Resource Lists': {
+                    'awesome-vue': 'https://github.com/vuejs/awesome-vue',
+                    'Conceptual overview of project layout': '/StartingDev'
+                }
+            }
         }
-      }
     }
-  }
 }
 </script>
 

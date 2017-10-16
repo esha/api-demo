@@ -10,40 +10,40 @@ import Posterior from 'posterior';
 import store from 'store2';
 
 export default {
-  data() {
-    return {};
-  },
-  methods: {
-    soap() {
-      console.log('Posterior', Posterior);
-      const SoapUI = window.Posterior({
-        url: 'http://localhost:8000/api/FoodQuerySoapService',
-        method: 'POST',
-        json: false,
-        headers: {
-          'Content-Type': 'text/xml'
-        },
-        requestData: (params) => {
-          return `<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:gen="http://ns.esha.com/2013/genesisapi">
-  <soap:Header/>
-  <soap:Body>
-      <gen:NutrientListRequest>
+    data() {
+        return {};
+    },
+    methods: {
+        soap() {
+            console.log('Posterior', Posterior);
+            const SoapUI = window.Posterior({
+                url: 'http://localhost:8000/api/FoodQuerySoapService',
+                method: 'POST',
+                json: false,
+                headers: {
+                    'Content-Type': 'text/xml'
+                },
+                requestData: (params) => {
+                    return `<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:gen="http://ns.esha.com/2013/genesisapi">
+<soap:Header/>
+<soap:Body>
+    <gen:NutrientListRequest>
         <!--Optional:-->
         <gen:StartIndex>${params.startIndex}</gen:StartIndex>
         <!--Optional:-->
         <gen:PageSize>${params.pageSize}</gen:PageSize>
-      </gen:NutrientListRequest>
-  </soap:Body>
+    </gen:NutrientListRequest>
+</soap:Body>
 </soap:Envelope>`
+                }
+            });
+            return SoapUI().then((val) => {
+                console.log(val);
+                store('soap', val);
+                return val;
+            });
         }
-      });
-      return SoapUI().then((val) => {
-        console.log(val);
-        store('soap', val);
-        return val;
-      });
     }
-  }
 }
 </script>
 
