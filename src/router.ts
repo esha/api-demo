@@ -5,6 +5,8 @@ import DevDoc from '@/DevDoc.vue'
 import Error404 from '@/Error404.vue'
 import StartingDev from '@/StartingDev.vue'
 import Bathtime from '@/Bathtime.vue'
+import Request from '@/Request.vue'
+import Response from '@/Response.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +27,8 @@ export default new VueRouter({
     { path: '/', component: Hello },
     { path: '/dev', component: DevDoc },
     { path: '/dev/starting', component: StartingDev },
+    { path: '/request', component: Request },
+    { path: '/response', component: Response },
     { path: '/bathtime', component: Bathtime },
     
     // Always leave this last one
