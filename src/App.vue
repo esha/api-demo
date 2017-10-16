@@ -14,9 +14,9 @@ import GenesisService from '@/GenesisService.vue';
  * Root component
  */
 export default {
-  components: {
-    GenesisService
-  }
+    components: {
+        GenesisService
+    }
 }
 </script>
 
