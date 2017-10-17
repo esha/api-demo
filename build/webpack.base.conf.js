@@ -55,17 +55,6 @@ module.exports = {
         }
       },
       {
-        test: /\.ts$/,
-        loader: 'ts-loader',
-        exclude: /node_modules|vue\src/,
-        options: {
-          appendTsSuffixTo: [/\.vue$/],
-          resolve: {
-            extensions: [ '.ts', '.tsx', ".js", ".json"]
-          }
-        }
-      },
-      {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
@@ -74,6 +63,14 @@ module.exports = {
             sourceMap: useCssSourceMap,
             extract: env.prod
           }))
+        }
+      },
+      {
+        test: /\.ts$/,
+        loader: 'ts-loader',
+        exclude: /node_modules|vue\src/,
+        options: {
+          appendTsSuffixTo: [/\.vue$/]
         }
       },
       {
