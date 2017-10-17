@@ -31,7 +31,8 @@ export default {
                     'vue-router': 'http://router.vuejs.org/',
                     'vue-loader': 'https://vue-loader.vuejs.org/en/',
                     'ts-loader': 'https://github.com/TypeStrong/ts-loader',
-                    'stylus': 'http://stylus-lang.com/'
+                    'stylus': 'http://stylus-lang.com/',
+                    'posterior': 'http://github.com/esha/posterior'
                     // 'vue-cli webpack template': 'http://vuejs-templates.github.io/webpack/'
                 },
                 'Tutorials': {
