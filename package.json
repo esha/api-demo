@@ -21,7 +21,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.1",
     "logfmt": "^1.2.0",
-    "posterior": "^0.19.1",
+    "posterior": "^0.19.2",
     "quasar-extras": "0.x",
     "quasar-framework": "^0.14.1",
     "request": "^2.83.0",
