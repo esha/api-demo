@@ -84,7 +84,7 @@ Most of development work will happen by writing and editing the `*.vue` files in
 In the `*.vue` files, there are 3 sections:
 
 1. Template
-    - The template must always have a single root node, and whatever Vue-marked HTML you desire. In this case, **Vue-marked** means references to comopnents like `&lt;route-view/&gt;` or **Vue** attributes like `v-for`, and could even be handlebar placeholders for data like `{{ title }}`, or others.
+    - The template must always have a single root node, and whatever Vue-marked HTML you desire. In this case, **Vue-marked** means references to comopnents like `&lt;route-view/&gt;` or **Vue** attributes like `v-for`, and could even be handlebar placeholders for data like <code v-pre>`{{ title }}`</code>, or others.
 2. Script
     - The script section should generally be **TypeScript**.  This section will provide the data and functions to render and activate the component markup.
 3. Style
