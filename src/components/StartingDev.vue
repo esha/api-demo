@@ -97,16 +97,16 @@ In the `*.vue` files, there are 3 sections:
 </template>
 
 <script>
-import vueMarkdown from 'vue-markdown'
+import vueMarkdown from 'vue-markdown';
 
 export default {
     data() {
-        return {}
+        return {};
     },
     components: {
         vueMarkdown
     }
-}
+};
 </script>
 
 <style>
