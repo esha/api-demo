@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Hello from '@/Hello.vue'
+import Home from '@/Home.vue'
 import DevDoc from '@/DevDoc.vue'
 import Error404 from '@/Error404.vue'
 import StartingDev from '@/StartingDev.vue'
@@ -24,7 +24,7 @@ export default new VueRouter({
    */
   mode: 'history',
   routes: [
-    { path: '/', component: Hello },
+    { path: '/', component: Home },
     { path: '/dev', component: DevDoc },
     { path: '/dev/starting', component: StartingDev },
     { path: '/request', component: Request },
