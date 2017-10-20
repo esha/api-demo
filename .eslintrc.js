@@ -37,6 +37,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'semi': 0,
-    'space-before-function-paren': ['warn', 'never']
+    'space-before-function-paren': ['warn', 'never'],
+    'space-infix-ops': 0
   }
 }
