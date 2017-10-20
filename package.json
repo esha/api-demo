@@ -27,7 +27,6 @@
     "request": "^2.83.0",
     "store2": "^2.5.7",
     "vue": "^2.5.2",
-    "vue-class-component": "^5.0.2",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1"
   },
@@ -73,7 +72,9 @@
     "ts-loader": "^3.0.2",
     "typescript": "^2.5.2",
     "url-loader": "^0.5.7",
+    "vue-class-component": "^6.0.0",
     "vue-loader": "~12.2.2",
+    "vue-property-decorator": "^6.0.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.5.2",
