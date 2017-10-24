@@ -67,12 +67,6 @@ export default class Search extends Vue {
     query: string = '';
     results: Array<SearchResult> = [];
 
-    onInput(): void {
-        if (this.$props.autocomplete) {
-            console.log('Autocomplete ', this.query);
-        }
-    }
-
     onChange(): void {
         if (!this.query) {
             this.results = [];
