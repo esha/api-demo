@@ -81,6 +81,7 @@ export default class Search extends Vue {
     }
 
     search(query: string, done?: Function): void {
+        let timeout: number = done ? 100 : 500;
         setTimeout(() => {
             if (done) {
                 done(fakeResults(query, true).map(function(result) {
@@ -95,7 +96,7 @@ export default class Search extends Vue {
                     queries.push(query);
                 }, []);
             }
-        }, 500);
+        }, timeout);
     }
 }
 </script>
