@@ -2,7 +2,7 @@
 <div class="search-box">
     <q-search placeholder="Search foods" autofocus clearable
         v-model="query" @keyup.enter="onEnter" @change="onChange">
-        <q-autocomplete @search="search" />
+        <q-autocomplete @search="search" @selected="onEnter"/>
     </q-search>
     <ul v-if="results.length">
         <li v-for="result in results" :key="result.name">{{result.name}}</li>
