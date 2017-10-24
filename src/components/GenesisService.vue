@@ -2,10 +2,10 @@
 import Posterior from 'posterior';
 import store from 'store2';
 
-const defaultConfig = { mock: true, rest: false };
+const defaultConfig = { rest: false };
 const config = store.get('demo.config', defaultConfig);
 const GenesisService = Posterior({
-    url: config.mock ? 'http://localhost:8000' : 'http://freyja.esha.com',
+    url: config.mock ? 'http://localhost:8000' : 'http://eshademo.cloudapp.net/soap/FoodQueryService.svc',
     json: config.rest,
     headers: config.rest ? {} : {
         'Content-Type': 'text/xml'
