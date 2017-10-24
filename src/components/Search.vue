@@ -17,6 +17,7 @@ import {
     QAutocomplete,
     QSearch
 } from 'quasar';
+import Case from 'case';
 import store from 'store2';
 
 class SearchResult {
@@ -32,17 +33,19 @@ class FakeResult extends SearchResult {
     static suffix(): string {
         return FakeResult.suffixes[FakeResult.count % FakeResult.suffixes.length];
     }
-    constructor(name: string) {
+    constructor(query: string, toCase?: string) {
         FakeResult.count += 1;
-        super(name + ' ' + FakeResult.suffix());
+        let name = query + ' ' + FakeResult.suffix();
+        super(toCase ? Case[toCase](name) : name);
     }
 }
 
 function fakeResults(query: string, useStored?: boolean): Array<SearchResult> {
     let fake: Array<SearchResult> = [];
     if (useStored) {
+        let toCase = Case.of(query);
         store.get('queries', []).forEach((query: string) => {
-            fake.push(new FakeResult(query + ' ' + FakeResult.suffix()))
+            fake.push(new FakeResult(query, toCase));
         });
     }
     if (fake.length === 0) {
