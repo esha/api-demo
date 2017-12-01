@@ -14,7 +14,7 @@
     "dev": "node build/script.dev.js",
     "build": "node build/script.build.js",
     "lint": "eslint --ext .js,.vue src",
-    "proxy": "nf start -j Procfile.dev -p 8000"
+    "proxy": "nf start -j Procfile -p 8000"
   },
   "dependencies": {
     "babel-runtime": "^6.25.0",
