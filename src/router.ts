@@ -30,7 +30,7 @@ export default new VueRouter({
     { path: '/request', component: Request },
     { path: '/response', component: Response },
     { path: '/bathtime', component: Bathtime },
-    
+
     // Always leave this last one
     { path: '*', component: Error404 } // Not found
   ]
