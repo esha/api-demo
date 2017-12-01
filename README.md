@@ -16,4 +16,7 @@ $ quasar build
 
 # lint code
 $ quasar lint
+
+# run proxy for esha.cloudapp.net
+$ npm run proxy
 ```
