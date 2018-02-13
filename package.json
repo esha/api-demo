@@ -4,7 +4,7 @@
   "description": "Genesis API Demo Console",
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build && cp heroku/* dist",
+    "build": "vue-cli-service build && cp heroku/* dist && cp package.json dist",
     "proxy": "node heroku/server.js",
     "lint": "vue-cli-service lint"
   },
