@@ -5,8 +5,8 @@
   "scripts": {
     "start": "npm run build && npm run express",
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build && cp heroku/* dist && cp package.json dist",
-    "express": "node heroku/server.js",
+    "build": "vue-cli-service build",
+    "express": "node server.js",
     "lint": "vue-cli-service lint"
   },
   "repository": {
