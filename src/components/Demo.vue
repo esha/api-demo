@@ -214,7 +214,7 @@ textarea {
     grid-row: 2;
 }
 .code textarea {
-    min-height: 9em;
+    min-height: 10em;
 }
 .request {
     grid-column: 1;
