@@ -5,7 +5,7 @@ var cors = require('cors');;
 var request = require('request');
 var app = express();
 let api = process.env.HNOSS_API || 'http://esha-sandbox.westus.cloudapp.azure.com/';
-const port = process.env.HNOSS_PORT || 8888;
+const port = process.env.HNOSS_PORT || process.env.PORT || 8888;
 const dir = process.env.HNOSS_DIR || 'dist';
 
 if (!api.endsWith('/')) {
