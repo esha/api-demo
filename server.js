@@ -1,5 +1,5 @@
 var express = require('express');
-var logfmt = require('logfmt');
+//var logfmt = require('logfmt');
 //var bodyParser = require('body-parser');
 var cors = require('cors');;
 var request = require('request');
@@ -64,5 +64,5 @@ app.all('/api/*', function (req, res) {
 app.use(express.static(dir));
 
 app.listen(port, function () {
-    console.log('Using API:', api);
+    console.log('Using API:', api, 'on port', port);
 });
