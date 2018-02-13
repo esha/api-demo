@@ -100,7 +100,7 @@ import * as Posterior from 'posterior';
 import store from 'store2';
 import * as ts from 'typescript';
 
-const Genesis = new Client('http://localhost:8008/', { debug: 'capture' });
+const Genesis = new Client('http://localhost:8888/api/', { debug: 'capture' });
 (window as any).Genesis = Genesis;
 (window as any).store = store;
 
@@ -113,7 +113,7 @@ export default class Demo extends Vue {
   public response: string = '';
   public initCode: string =
 `// have to use a proxy until we enable CORS support
-const Genesis = new Client('http://localhost:8008/', { debug: 'xhr' });`;
+const Genesis = new Client('http://localhost:8888/api/', { debug: 'capture' });`;
   public code: string = '// Choose an endpoint above';
 
   constructor() {
