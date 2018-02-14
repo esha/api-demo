@@ -4,7 +4,7 @@
   "description": "Genesis API Demo Console",
   "scripts": {
     "start": "npm run express",
-    "heroku-prebuild": "echo Running prebuild. && npm i -g vue-cli && npx vue-cli-service build",
+    "heroku-prebuild": "echo Running prebuild. && npx not-vue-cli-service build",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "express": "node server.js",
