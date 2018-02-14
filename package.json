@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "description": "Genesis API Demo Console",
   "scripts": {
-    "start": "npm run express",
-    "postinstall": "echo Running prebuild. && vue-cli-service build",
+    "start": "node server.js",
+    "postinstall": "npx vue-cli-service build",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "express": "node server.js",
     "lint": "vue-cli-service lint"
   },
   "repository": {
@@ -33,12 +32,12 @@
     "vue": "^2.5.13"
   },
   "devDependencies": {
-    "@vue/cli-plugin-typescript": "^3.0.0-alpha.8",
-    "@vue/cli-service": "^3.0.0-alpha.8",
+    "@vue/cli-plugin-typescript": "^3.0.0-alpha.13",
+    "@vue/cli-service": "^3.0.0-alpha.13",
+    "@vue/cli": "^3.0.0-alpha.13",
     "cors": "^2.8.4",
     "logfmt": "^1.2.0",
     "vue-class-component": "^6.0.0",
-    "vue-cli": "^2.9.3",
     "vue-property-decorator": "^6.0.0",
     "vue-template-compiler": "^2.5.13"
   },
