@@ -4,7 +4,7 @@
   "description": "Genesis API Demo Console",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "npx vue-cli-service@3.0.0-alpha13 build",
+    "postinstall": "npx vue-cli-service build",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
