@@ -4,7 +4,7 @@
   "description": "Genesis API Demo Console",
   "scripts": {
     "start": "npm run express",
-    "heroku-prebuild": "echo Running prebuild. && npm i -g vue-cli && npm run build",
+    "heroku-prebuild": "echo Running prebuild. && npm i -g vue-cli && npx vue-cli-service build",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "express": "node server.js",
@@ -20,6 +20,7 @@
     "demo",
     "console",
     "esha",
+    "gersemi",
     "API"
   ],
   "dependencies": {
@@ -37,6 +38,7 @@
     "cors": "^2.8.4",
     "logfmt": "^1.2.0",
     "vue-class-component": "^6.0.0",
+    "vue-cli": "^2.9.3",
     "vue-property-decorator": "^6.0.0",
     "vue-template-compiler": "^2.5.13"
   },
