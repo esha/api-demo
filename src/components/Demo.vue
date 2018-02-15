@@ -14,6 +14,9 @@
                 <option value="ByName">Query - Search Foods By Name</option>
                 <option value="ByModifiedDateRange">Query - Search Foods By Date Range</option>
                 <option value="Analysis">Query - Get Analysis Of User Food</option>
+                <option value="UserCodes">Query - List User Codes</option>
+                <option value="NewFood">Edit - Create A Food</option>
+                <option value="UpdateFood">Edit - Update A Food To Set Property Values To Null</option>
             </select>
             and
             <button @click="set">Replace</button>
@@ -89,6 +92,27 @@ Genesis.Query.Analysis(
 <gen:UnitId>a7df0af5-001f-0000-7484-751e8eaf05c6</gen:UnitId>
 <gen:FoodId>798422bd-c422-1f6c-1358-ba860e2e8d71</gen:FoodId>`);
 </textarea>
+<textarea id="UserCodes">
+Genesis.Query.UserCodes();
+</textarea>
+<textarea id="NewFood">
+Genesis.Edit.NewFood(
+  //TODO: working example
+);
+</textarea>
+<textarea id="UpdateFood">
+Genesis.Edit.UpdateFood({
+  Foods: {
+    Ingredient: {
+      'exlx:Id': '798422bd-95b0-002e-1358-ba860e2e8d71',
+      'exlx:PropertyValues':
+        '<id xsi:nil="true" xmlns="http://tracegains.com/" xmlns:xsi="xsi"/>' +
+        '<supplierId xsi:nil="true" xmlns="http://tracegains.com/" xmlns:xsi="xsi"/>',
+    },
+  },
+});
+</textarea>
+<!-- end snippets -->
     </div>
   </div>
 </template>
