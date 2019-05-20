@@ -93,7 +93,7 @@ Genesis.Query.Analysis(
 <gen:FoodId>798422bd-c422-1f6c-1358-ba860e2e8d71</gen:FoodId>`);
 </textarea>
 <textarea id="UserCodes">
-Genesis.Query.UserCodes();
+Genesis.Query.UserCodes(10);
 </textarea>
 <textarea id="NewFood">
 Genesis.Edit.NewFood(
