@@ -125,7 +125,7 @@ import store from 'store2';
 import * as ts from 'typescript';
 
 const host = 'http://'+window.location.host;
-const Genesis = new Client(host+'/api/', { debug: 'capture' });
+const Genesis = new Client(host + '/api/', { debug: 'capture' });
 (window as any).Genesis = Genesis;
 (window as any).store = store;
 
