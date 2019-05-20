@@ -7,9 +7,16 @@ var app = express();
 let api = process.env.HNOSS_API || 'http://esha-sandbox.westus.cloudapp.azure.com/';
 const port = process.env.HNOSS_PORT || process.env.PORT || 8888;
 const dir = process.env.HNOSS_DIR || 'dist';
+let api = process.env.HNOSS_API || "https://api.eshacloud.com:30261";
+var apiUsername = process.env.HNOSS_API_USERNAME;
+var apiPassword = process.env.HNOSS_API_PASSWORD;
+var apiOptions = {};
 
-if (!api.endsWith('/')) {
-    api = api + '/';
+if (apiUsername && apiPassword) {
+    apiOptions.auth = {
+        user: apiUsername,
+        pass: apiPassword
+    };
 }
 
 function toURL(req) {
@@ -54,7 +61,7 @@ app.all('/api/*', function (req, res) {
 
     print(log(req))
     try {
-        req.pipe(request[method](url))
+        req.pipe(request[method](url, apiOptions))
             .pipe(res);
     } catch (e) {
         res.status(500).send(e.toString()).end();
